@@ -1,11 +1,11 @@
 import index from '@/pages/index'
 import login from '@/pages/login'
-import error from '@/pages/error'
+import errors from '@/pages/error'
 let route=[
     {
         path: '*',
-        component: error,
-        name: 'error'
+        component: errors,
+        name: 'errors'
     },
     {
         path: '/',
